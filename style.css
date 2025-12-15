@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #dbeafe, #ede9fe);
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #c7d2fe;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #a5b4fc;
+    object-fit: cover;
+}
+
+.slogan {
+    margin-top: 10px;
+    font-style: italic;
+    color: #4338ca;
+}
+
+/* SECTION CHUNG */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4f46e5;
+}
+
+/* ABOUT */
+.about p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* ACTIVITIES */
+.activity-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.activity-item {
+    background-color: #eef2ff;
+    border-radius: 12px;
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.activity-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #c7d2fe;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #3730a3;
+    text-decoration: none;
+    font-weight: bold;
+}
